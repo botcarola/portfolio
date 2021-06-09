@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 1px;
+   
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.cajitas{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/** SECCIÓN DEL FOOTER **/
+
+footer{
+ height: 32%;
+ width: 100%;
+ background-color:#097f97;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+/** LINKS NAV/FOOTER **/
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+   
+}
+
+.listafooter{
+    width: 25%;
+    padding-top: 40em;
+    padding-bottom: 10em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.listafooter a{
+    color:white;
+    font-size: 15em;
+}
+
+/** BOTONES DEL FOOTER **/
+
+
+
+
+.botonescirculos{
+    padding-top: 20em;
+    padding-bottom: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.circulo{
+border-radius: 30em;
+margin: 10em;
+padding: 10em;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+border: 1em solid white;
+   
+}
+
+.circulo:hover{
+    background-color:#097f97 ;
+       
+
+    }
+
+    /** FRASE FINAL **/
+
+
+.frasefinal{
+
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 18em;
+    color: white;
+
+
+}
+
+
+img:hover{
+    color:white;
+}
