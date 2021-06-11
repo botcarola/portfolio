@@ -40,12 +40,15 @@ nav{
     padding-right: 20%;
 
     }
-
     
     .navmargen{
         margin-left: 1em ;
         margin-right: 1em;
 
+    }
+
+    .listanav a{
+        color: black;
     }
     
     
