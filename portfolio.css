@@ -6,38 +6,38 @@ html, body{
 
 }
 
-/** SECCIÓN HEADER/NAV **/
+/** SECCIÓN NAV **/
 
-header{
+nav{
     width: 100%;
     height: 95em;
     position: fixed;
     top: 0;
     display: flex;
-    border-bottom: 1em solid rgb(5, 200, 235);
+    justify-content: flex-end;
+    align-items: center;  
+    border-bottom: 1em solid black;
     
 
-    
 }
 
-nav{
-    width: 100%;
-    display: flex;
-    font-family:'Montserrat', sans-serif;
+.listadetalles{
+    width: 45%;
+    height: 25%;
+    font-weight: bold;      
+    font-family: 'Montserrat', sans-serif;
     font-size: 18em;
-    font-weight: bold;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .listanav{
-    list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    color: black;
-    font-weight: bolder;
-    padding-right: 20%;
+    
 
     }
     
@@ -47,9 +47,35 @@ nav{
 
     }
 
+    .botoncontacto{
+               
+        background-color: rgb(255, 191, 53);
+        border-radius: 30px;      
+        
+        
+       
+                        
+
+    }
+
+
+
     .listanav a{
         color: black;
+        
     }
+
+        
+    
+/** SECCIÓN NAV **/
+
+
+header{
+    
+    
+
+    
+}      
     
     
 
@@ -80,6 +106,14 @@ ul{
     margin: 0;
   
    
+}
+
+button{    
+        border-style: none;
+        
+       
+        
+        
 }
 
 /** SECCIÓN MAIN**/
@@ -116,7 +150,6 @@ footer{
     padding-bottom: 10em;
     font-weight: bold;
     display: flex;
-    flex-direction: row;
     justify-content:space-evenly;
     font-family: 'Montserrat', sans-serif;
 }
