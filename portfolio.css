@@ -50,12 +50,16 @@ nav{
     .botoncontacto{
                
         background-color: rgb(255, 191, 53);
-        border-radius: 30px;      
-        
-        
-       
-                        
+        border-radius: 30px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7em;
+        height: 2em;   
+    }
 
+    .botoncontacto a{
+        color: white;
     }
 
 
@@ -85,6 +89,7 @@ header{
 body{
     background-color: rgb(255, 255, 255);
     font-size: 1px;
+    
    
 
 }
@@ -93,6 +98,7 @@ body{
 
 a{
     text-decoration: none;
+    
 }
 
 .contenedor{
@@ -118,6 +124,9 @@ button{
 
 /** SECCIÓN MAIN**/
 
+main{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
 .cajitas{
 
