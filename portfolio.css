@@ -6,6 +6,46 @@ html, body{
 
 }
 
+
+/** GENÉRICOS REUTILIZABLES **/
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.contenedor{
+    width: 100%;
+    height: 1000em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+   
+}
+
+button{    
+        border-style: none;   
+        
+        
+}
+
+/** SECCIÓN BODY **/
+
+body{
+   
+    font-size: 1px;  
+
+}
+
 /** SECCIÓN NAV **/
 
 nav{
@@ -16,7 +56,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;  
-    border-bottom: 1em solid black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     
     
 
@@ -24,13 +64,16 @@ nav{
 
 .listadetalles{
     width: 45%;
-    height: 25%;
+    height: 40%;
     font-weight: bold;      
     font-family: 'Montserrat', sans-serif;
     font-size: 18em;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10em;
+    margin-left: 500em;
+
 
 }
 
@@ -55,8 +98,8 @@ nav{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 7em;
-        height: 2em;   
+        width: 9em;
+        height: 2.5em;   
         
     }
     
@@ -66,7 +109,7 @@ nav{
    
     
     .botoncontacto:hover{
-        background-color: #75daef;
+        background-color: rgb(5, 200, 235);
     }
 
         
@@ -79,6 +122,7 @@ header{
     display: flex;    
     justify-content: center;
     align-items: center;  
+    
 }      
 
 .presentacion{
@@ -89,9 +133,7 @@ header{
     align-items: flex-start;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 20em;
-    
-   
+    padding-left: 110em;  
 }
 
 .hola{
@@ -122,7 +164,7 @@ header{
 }
 
 .botonhago{
-    background-color:#75daef; 
+    background-color: rgb(255, 191, 53); 
     border-radius: 50px;
     border-color: transparent;
     display: flex;
@@ -146,53 +188,15 @@ header{
 }
 
 .botonhago:hover{
-    background-color: rgb(255, 191, 53);
+    background-color: rgb(5, 200, 235);
 }
    
     
 
 
-/** SECCIÓN BODY **/
 
-body{
-   
-    font-size: 1px;
-    
-   
 
-}
 
-/** GENÉRICOS REUTILIZABLES **/
-
-a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.contenedor{
-    width: 100%;
-    height: 1000em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  
-   
-}
-
-button{    
-        border-style: none;
-        
-       
-        
-        
-}
 
 /** SECCIÓN MAIN**/
 
@@ -260,6 +264,11 @@ i{
     color: rgb(255, 191, 53);
 }
 
+.espacio{
+    margin-top: 18em;
+    margin-right: 18em;
+}
+
 .circulo{
 border-radius: 30em;
 margin: 12em;
@@ -275,7 +284,7 @@ border: 1em solid white;
 
 
 
-    /** FRASE FINAL **/
+    /** frase final **/
 
 
 .frasefinal{
@@ -288,7 +297,7 @@ border: 1em solid white;
 
 }
 
-/** HOVERS DEL FOOTER **/
+/** hovers del footer **/
 
 .circulo:hover{
     background-color:rgb(255, 191, 53);
@@ -299,7 +308,7 @@ i:hover{
     color: white;
 }
 
-/** QUERIES DEL FOOTER **/ 
+/** queries del footer **/ 
 
 @media screen and (max-width: 1024px) {
 
