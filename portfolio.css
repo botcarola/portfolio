@@ -2,7 +2,7 @@ html, body{
     height: 100%;
     padding: 0;
     margin: 0;
-
+    
 
 }
 
@@ -21,7 +21,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
 }
 
 ul{
@@ -43,6 +43,7 @@ button{
 body{
    
     font-size: 1px;  
+   
 
 }
 
@@ -133,7 +134,7 @@ header{
     align-items: flex-start;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 110em;  
+    padding-left: 80em;  
 }
 
 .hola{
@@ -158,7 +159,8 @@ header{
 .frase{
     font-family: 'Montserrat', sans-serif;
     font-size:20em;
-    margin-bottom:2em ;
+    font-weight: 200;
+    margin-bottom: 2em;
     
     
 }
