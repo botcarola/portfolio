@@ -6,6 +6,15 @@ html, body{
 
 }
 
+/** SECCIÓN BODY **/
+
+body{
+   
+    font-size: 1px;  
+   
+
+}
+
 
 /** GENÉRICOS REUTILIZABLES **/
 
@@ -24,6 +33,16 @@ a{
 
 }
 
+.contenedor2{
+    width: 100%;
+    height: 1000em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7FB;
+}
+
 ul{
     list-style: none;
     padding: 0;
@@ -38,14 +57,9 @@ button{
         
 }
 
-/** SECCIÓN BODY **/
 
-body{
-   
-    font-size: 1px;  
-   
 
-}
+
 
 /** SECCIÓN NAV **/
 
@@ -196,21 +210,76 @@ header{
     
 
 
-
-
-
-
 /** SECCIÓN MAIN**/
 
 main{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.cajitas{
+/** mis conocimientos **/
 
-    width: 100%;
-    height: 100%;
+.secciondescripcion{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   
 }
+
+
+.estilotitulo{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 60em; 
+}
+
+.estilotexto{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18em;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.contenedortarjeta{
+    width: 100%;
+    display: flex;
+
+    
+}
+
+.tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.tarjeta{
+    width: 250em;
+    height: 250em;
+    border-radius: 10px;
+    border: 0.5em solid rgb(224, 221, 221);
+    background-color: white;
+    margin: 10em 10em;
+}
+
+
+
+
+
+
+
 
 
 
@@ -227,7 +296,7 @@ footer{
  
 }
 
-/** LINKS NAV/FOOTER **/
+/** links nav-footer **/
 
 
 
@@ -247,7 +316,7 @@ footer{
     font-size: 15em;
 }
 
-/** BOTONES DEL FOOTER **/
+/** botones footer **/
 
 
 
