@@ -42,7 +42,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #D0BDF4;
+    background-color: #daccf3;
 }
 
 .contenedor3{
@@ -319,9 +319,8 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: white;
+    color: #e4e6ec;
     font-weight:bolder;
-    
     font-size: 75em;
     
     
@@ -333,9 +332,9 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-style: oblique;
+    color: #e4e6ec;
+    font-family: 'Cookie', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 30em;
     
 }
@@ -345,10 +344,10 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-family: 'Cookie', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 50em;
-    color: white;
+    color: #e4e6ec;
 }
 
 
@@ -457,7 +456,7 @@ border: 1em solid white;
 
 
 .circulo:hover{
-    background-color: #D0BDF4;
+    background-color: #daccf3;
         
 }
 
