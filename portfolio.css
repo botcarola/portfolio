@@ -30,6 +30,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E5EAF5;
+    
 
 }
 
@@ -40,7 +42,17 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F6F7FB;
+    background-color: #D0BDF4;
+}
+
+.contenedor3{
+    width: 100%;
+    height: 1000em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
 }
 
 ul{
@@ -108,7 +120,7 @@ nav{
 
     .botoncontacto{
                
-        background-color: rgb(255, 191, 53);
+        background-color: #8458B3;
         border-radius: 30px; 
         display: flex;
         justify-content: center;
@@ -124,7 +136,7 @@ nav{
    
     
     .botoncontacto:hover{
-        background-color: rgb(5, 200, 235);
+        background-color: #494D5F;
     }
 
         
@@ -158,6 +170,8 @@ header{
     font-weight: bolder;
     padding-bottom: 0;
     margin-bottom: 0;
+    color: #494D5F;
+    
 }
 
 .nombre{
@@ -165,7 +179,7 @@ header{
     font-family: 'Lobster', cursive;
     font-size: 75em;
     font-weight: bolder;
-    color: rgb(5, 200, 235);
+    color: #494D5F;
     padding: 0;
     margin: 0;
 }
@@ -180,7 +194,7 @@ header{
 }
 
 .botonhago{
-    background-color: rgb(255, 191, 53); 
+    background-color: #8458B3; 
     border-radius: 50px;
     border-color: transparent;
     display: flex;
@@ -204,7 +218,7 @@ header{
 }
 
 .botonhago:hover{
-    background-color: rgb(5, 200, 235);
+    background-color: #494D5F;
 }
    
     
@@ -243,6 +257,7 @@ main{
     margin-top: 8em; 
     margin-bottom: 0;
     padding-bottom: 1em;
+    color: #494D5F;
 
 }
 
@@ -290,7 +305,7 @@ main{
 .contenedorcita{
     width: 100%;
     height: 600em;
-    background-color: rgb(255, 191, 53);
+    background-color: #8458B3;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -306,7 +321,7 @@ main{
     align-items: center;
     color: white;
     font-weight:bolder;
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 75em;
     
     
@@ -337,7 +352,16 @@ main{
 }
 
 
+/** mis proyectos **/
 
+
+
+
+
+
+
+
+/** contacto **/
 
 
 
@@ -348,7 +372,7 @@ main{
 footer{
  height: 32%;
  width: 100%;
- background-color:rgb(5, 200, 235);
+ background-color: #494D5F;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -392,7 +416,7 @@ footer{
 
 i{
     font-size: 23em;
-    color: rgb(255, 191, 53);
+    color: #8458B3;
 }
 
 .espacio{
@@ -430,14 +454,17 @@ border: 1em solid white;
 
 /** hovers del footer **/
 
+
+
 .circulo:hover{
-    background-color:rgb(255, 191, 53);
+    background-color: #D0BDF4;
         
 }
 
 i:hover{
     color: white;
 }
+
 
 /** queries del footer **/ 
 
