@@ -121,7 +121,7 @@ nav{
 
     .botoncontacto{
                
-        background-color: #8458B3;
+        background-color: #7547a7;
         border-radius: 30px; 
         display: flex;
         justify-content: center;
@@ -137,7 +137,7 @@ nav{
    
     
     .botoncontacto:hover{
-        background-color: #494D5F;
+        background-color: #13052b;
     }
 
         
@@ -219,7 +219,7 @@ header{
 }
 
 .botonhago:hover{
-    background-color: #494D5F;
+    background-color: #13052b;
 }
    
     
@@ -303,52 +303,49 @@ main{
 
 /** cita **/
 
-.contenedorcita{
+.citatextual{
     width: 100%;
     height: 600em;
     background-color: #8458B3;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
 
 
-.comillas{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    color: #e4e6ec;
-    font-weight:bolder;
-    font-size: 75em;
-    
-    
+
+
+.fa-quote-right{
+    color:white;
+    font-size: 90em;
+
 }
 
-.frasecita{
+
+.frase{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #e4e6ec;
-    font-family: 'Cookie', cursive;
-    font-family: 'Lobster', cursive;
-    font-size: 30em;
+    color: #13052b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25em;
+    font-weight: 700;
     
 }
 
-.personacita{
+.autor{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Cookie', cursive;
-    font-family: 'Lobster', cursive;
-    font-size: 50em;
-    color: #e4e6ec;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30em;
+    color: #13052b;
 }
 
 
@@ -480,7 +477,22 @@ footer{
 
 }
 
-i{
+.fa-twitter{
+    font-size: 23em;
+    color: #8458B3;
+}
+
+.fa-github-alt{
+    font-size: 23em;
+    color: #8458B3;
+}
+
+.fa-linkedin-in{
+    font-size: 23em;
+    color: #8458B3;
+}
+
+.fa-envelope{
     font-size: 23em;
     color: #8458B3;
 }
@@ -527,7 +539,19 @@ border: 1em solid white;
         
 }
 
-i:hover{
+.fa-twitter:hover{
+    color: white;
+}
+
+.fa-github-alt:hover{
+    color: white;
+}
+
+.fa-linkedin-in:hover{
+    color: white;
+}
+
+.fa-envelope:hover{
     color: white;
 }
 
