@@ -185,12 +185,12 @@ header{
     margin: 0;
 }
 
-.frase{
+.descripcion{
     font-family: 'Montserrat', sans-serif;
-    font-size:20em;
+    font-size:25em;
     font-weight: 200;
     margin-bottom: 2em;
-    
+    color: #494D5F;   
     
 }
 
@@ -339,6 +339,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-size: 25em;
     text-align: center;
+    font-weight: normal;
   
 }
 
@@ -370,65 +371,10 @@ main{
     border: solid rgb(197, 180, 180) 1em;
     display: flex;
     justify-content: space-around;
-    align-content: flex-start;
-    
-    
-   
-    
+    align-content: flex-start;  
     
     
 }
-
-.contactar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: space-around;
-      
-    
-}
-
-.cajaformulario{   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-    
-    
-}
-
-.contactame{    
-    font-size: 40em;
-    
-}
-
-.escribime{
-      font-size: 40em;
-
-
-}
-
-.botonescontacto{
-    height: 500em;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-content: space-around;
-      
-    
-}
-
-.circulocontacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-
-}
-
-
-
-
 
 
 
