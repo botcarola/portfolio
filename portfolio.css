@@ -379,10 +379,9 @@ main{
     display: flex;    
     flex-direction: column;
     align-content: flex-start;
-    padding-left: 60em;
+    padding: 50em 50em;
+    margin: 10em 10em;
        
-    
-
 }
 
 .contactame{
@@ -395,6 +394,59 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-size: 20em;
     text-align:left;
+}
+
+.buttonscontacto{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.buttonscontacto .fa-github-alt{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+
+}
+
+.buttonscontacto .fa-linkedin-in{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+}
+
+.buttonscontacto .fa-envelope{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+}
+
+.buttonscontacto .fa-github-alt:hover{
+    background-color: #8458B3;
+
+}
+
+.buttonscontacto .fa-linkedin-in:hover{
+    background-color: #8458B3;
+}
+
+.buttonscontacto .fa-envelope:hover{
+    background-color: #8458B3;
 }
 
 
