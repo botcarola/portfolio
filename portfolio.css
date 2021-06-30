@@ -24,7 +24,7 @@ a{
     
 }
 
-.contenedor{
+.contenedorheader{
     width: 100%;
     height: 1000em;
     display: flex;
@@ -35,6 +35,7 @@ a{
 
 }
 
+
 .contenedor2{
     width: 100%;
     height: 1000em;
@@ -43,17 +44,21 @@ a{
     justify-content: space-around;
     align-items: center;
     background-color: #daccf3;
+    
 }
 
 .contenedor3{
     width: 100%;
-    height: 1000em;
+    height: 1500em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5EAF5;
     
-
 }
+
+
 
 ul{
     list-style: none;
@@ -211,7 +216,7 @@ header{
     color:white;
 }
 
-.imagen{
+.imgheader{
     width: 500px;
     height: 500px;
     margin-left: 40em;
@@ -238,13 +243,14 @@ main{
 /** mis conocimientos **/
 
 
-.misconocimientos{
+.textsegment{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     text-align: center;   
+    
 }
 
 .secciontexto{
@@ -395,6 +401,33 @@ main{
 
 /** mis proyectos **/
 
+.projectscards{
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100em;
+
+    
+}
+
+.projectscards .card{
+    width: 350em;
+    height: 350em;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectscards .estilotexto{
+    font-weight: 500;
+}
+
+.imgproject{
+    width: 100em;
+    align-content: center;
+}
 
 
 
