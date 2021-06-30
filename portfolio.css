@@ -40,7 +40,7 @@ a{
     height: 1000em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #daccf3;
 }
@@ -237,41 +237,43 @@ main{
 
 /** mis conocimientos **/
 
-.secciondescripcion{
+.misconocimientos{
     width: 50%;
-    height: 200em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2em;
-    padding-bottom: 50em;
-   
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;   
 }
 
+.secciontexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
 
 .estilotitulo{
     text-align: center;
     font-family: 'Cookie', cursive;
     font-family: 'Lobster', cursive;
     font-size: 60em;
-    margin-top: 8em; 
-    margin-bottom: 0;
-    padding-bottom: 1em;
     color: #494D5F;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
 
 }
 
 .estilotexto{
-    width: 50%;
-    text-align: center;
+   
     font-family: 'Montserrat', sans-serif;
     font-size: 18em;
-    margin-top: 0;
-    padding-top: 0;
-    padding-bottom: 20em;
-    margin-bottom: 10em;
-
+    color: #494D5F;
+    font-weight: normal;
+    
 }
 
 .contenedortarjeta{
@@ -405,7 +407,7 @@ main{
 
 }
 
-.buttonscontacto .fa-github-alt{
+.igithub .fa-github-alt{
     width: 2em;
     height: 2em;
     background-color: white;
