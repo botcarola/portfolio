@@ -403,10 +403,11 @@ main{
 
 .projectscards{
 
-    width: 70%;
+    width: 59%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 100em;
 
@@ -416,17 +417,23 @@ main{
 .projectscards .card{
     width: 350em;
     height: 350em;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .projectscards .estilotexto{
     font-weight: 500;
 }
 
+.imgportfolio{
+    margin: 30em 50em;
+    width: 250em;
+    height: 200em;    
+}
 .imgproject{
-    width: 100em;
-    align-content: center;
+    margin: 5em 50em;
+    width: 250em;
+    height: 250em;
+    
 }
 
 
