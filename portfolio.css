@@ -188,7 +188,7 @@ header{
 .descripcion{
     font-family: 'Montserrat', sans-serif;
     font-size:25em;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 2em;
     color: #494D5F;   
     
@@ -267,9 +267,9 @@ main{
 
 .estilotexto{ 
     font-family: 'Montserrat', sans-serif;
-    font-size: 18em;
+    font-size: 20em;
     color: #494D5F;
-    font-weight: normal;
+    font-weight: 300;
     
 }
 
@@ -292,9 +292,55 @@ main{
     border: 1em solid #c3c3c7;
     background-color: white;
     margin: 10em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
+.card .estilotexto{
+    font-weight: bolder;
+}
 
+.card .fa-html5{
+    font-size: 100em;
+    color: #E54D26;
+}
+
+.card .fa-css3-alt{
+    font-size: 100em;
+    color: #3D8FC6;
+}
+
+.card .fa-sass{
+    font-size: 100em;
+    color: #CC6699;
+}
+
+.card .fa-js{
+    font-size: 100em;
+    color: rgb(255, 208, 0);
+
+}
+
+.card .fa-react{
+    font-size: 100em;
+    color: #61DAFB;
+}
+
+.card .fa-git-alt{
+    font-size: 100em;
+    color: #F34F29;
+}
+
+.card:hover{
+    color: #8458B3;
+    border: 1em solid #8458B3;
+}
+
+.card h2:hover{
+    color: #8458B3;
+}
 
 /** cita **/
 
