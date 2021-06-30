@@ -20,7 +20,7 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #2C2D30;
     
 }
 
@@ -53,6 +53,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: center;
     align-items: center;
     background-color: #E5EAF5;
     
@@ -176,7 +177,7 @@ header{
     font-weight: bolder;
     padding-bottom: 0;
     margin-bottom: 0;
-    color: #494D5F;
+    color: #2C2D30;
     
 }
 
@@ -185,7 +186,7 @@ header{
     font-family: 'Lobster', cursive;
     font-size: 75em;
     font-weight: bolder;
-    color: #494D5F;
+    color: #2C2D30;
     padding: 0;
     margin: 0;
 }
@@ -265,7 +266,7 @@ main{
     font-family: 'Cookie', cursive;
     font-family: 'Lobster', cursive;
     font-size: 60em;
-    color: #494D5F;
+    color: #2C2D30;
     display: flex;
     flex-direction: column;
 
@@ -274,7 +275,7 @@ main{
 .estilotexto{ 
     font-family: 'Montserrat', sans-serif;
     font-size: 20em;
-    color: #494D5F;
+    color: #2C2D30;
     font-weight: 300;
     
 }
@@ -403,15 +404,14 @@ main{
 
 .projectscards{
 
-    width: 59%;
+    width: 60%;
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: space-between;
+    align-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 100em;
-
-    
+   
 }
 
 .projectscards .card{
@@ -435,9 +435,6 @@ main{
     height: 250em;
     
 }
-
-
-
 
 
 
@@ -529,10 +526,6 @@ main{
 .buttonscontacto .fa-envelope:hover{
     background-color: #8458B3;
 }
-
-
-
-
 
 
 
