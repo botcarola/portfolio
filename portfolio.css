@@ -237,6 +237,7 @@ main{
 
 /** mis conocimientos **/
 
+
 .misconocimientos{
     width: 50%;
     display: flex;
@@ -261,14 +262,10 @@ main{
     color: #494D5F;
     display: flex;
     flex-direction: column;
-  
-    
-    
 
 }
 
-.estilotexto{
-   
+.estilotexto{ 
     font-family: 'Montserrat', sans-serif;
     font-size: 18em;
     color: #494D5F;
@@ -276,32 +273,28 @@ main{
     
 }
 
-.contenedortarjeta{
-    width: 100%;
+.skillscards{
+
+    width: 55%;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100em;
 
     
 }
 
-.tarjetas{
-    width: 100%;
-    display: flex;
-    flex-direction: center;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-
-
-.tarjeta{
+.card{
     width: 260em;
     height: 245em;
     border-radius: 10px;
-    border: 0.5em solid rgb(224, 221, 221);
+    border: 1em solid #c3c3c7;
     background-color: white;
     margin: 10em 10em;
 }
+
+
 
 /** cita **/
 
