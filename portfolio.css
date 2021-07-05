@@ -54,8 +54,8 @@ a{
     height: 1500em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
     align-items: center;
     background-color: #E5EAF5;
     
@@ -244,7 +244,7 @@ main{
     align-items: center;
 }
 
-/** mis conocimientos **/
+/** ¡¡¡¡¡ MIS CONOCIMIENTOS !!!!! **/
 
 
 .textsegment{
@@ -304,7 +304,6 @@ main{
     border-radius: 10px;
     border: 1em solid #c3c3c7;
     background-color: white;
-    /**margin: 10em 10em;**/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -355,7 +354,7 @@ main{
     color: #8459bd;
 }
 
-/** cita **/
+/** ¡¡¡¡ SECCIÓN CITA !!!! **/
 
 .citatextual{
     width: 100%;
@@ -410,23 +409,17 @@ main{
 
 .projectscard{
 
-    width: 60%;
+    width: 58%;
     height: 75%;
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+
+      
     
-   
 }
 
-
-
-.containerimg{
-    width: 250em;
-    height: 250em;
-    }
 
 .projectscard .card{
     width: 350em;
@@ -438,10 +431,6 @@ main{
     font-weight: 500;
 }
 
-.imgportfolio{
-    width: 100%; 
-       
-}
 
 .imgproject{
     width: 250em;
