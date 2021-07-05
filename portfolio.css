@@ -18,7 +18,7 @@ body{
 
 
 
-/** GENÉRICOS REUTILIZABLES **/
+/** GENÉRICOS **/
 
 a{
     text-decoration: none;
@@ -43,7 +43,7 @@ a{
     height: 1000em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #daccf3;
     
@@ -271,9 +271,7 @@ main{
     font-family: 'Lobster', cursive;
     font-size: 60em;
     color: #2C2D30;
-    display: flex;
-    flex-direction: column;
-    
+      
 
 }
 
@@ -420,7 +418,6 @@ main{
     
 }
 
-
 .projectscard .card{
     width: 350em;
     height: 350em;
@@ -439,101 +436,117 @@ main{
 }
 
 
-/** contacto **/
+/** ¡¡¡¡¡ CONTACTO !!!!!! **/
 
-.contacto{
+.contact-box{
     height: 70%;
     width: 60%;
     background-color: white;
     border-radius: 10em;
     border: solid rgb(197, 180, 180) 1em; 
     display: flex;
-
-    
+    justify-content: space-evenly;
+         
 }
 
-.seccioncontacto{
-    width: 50%; 
-    display: flex;    
-    flex-direction: column;
-    align-content: flex-start;
-    padding: 50em 50em;
-    margin: 10em 10em;
-       
-}
-
-.contactame{
-    font-family: 'Cookie', cursive;
-    font-family: 'Lobster', cursive;
-    font-size: 60em;
-}
-
-.pcontactame{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20em;
-    text-align:left;
-}
-
-/**
-.buttonscontacto{
+.contact-me{
     width: 40%;
+    height: 80%; 
+    display: flex; 
+    flex-direction: column;  
+    align-self: center;
+    background-color: white; 
+            
+}
+
+.contact-me .estilotitulo{
+    text-align: left;
+}
+
+.contact-me .estilotexto{
+    text-align: left;
+    font-weight: 300;
+}
+
+.list-contact{
+    width: 60%;
     height: 40%;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: space-around;
+    
+    
+}
+
+/**
+.li-border{
+    border: 1em solid white;
+    border-radius: 15em;
+       
 
 }
 
-.listcontact{
-    display: flex;
-    justify-content: flex-start;
+.li-border:hover{
+    border: 1em solid #684695;
+    border-radius: 15em;
 }
-
-.igithub .fa-github-alt{
-    width: 2em;
-    height: 2em;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20em;
-
-}
-
-.buttonscontacto .fa-linkedin-in{
-    width: 2em;
-    height: 2em;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20em;
-}
-
-.buttonscontacto .fa-envelope{
-    width: 2em;
-    height: 2em;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20em;
-}
-
-.buttonscontacto .fa-github-alt:hover{
-    background-color: #8458B3;
-
-}
-
-.buttonscontacto .fa-linkedin-in:hover{
-    background-color: #8458B3;
-}
-
-.buttonscontacto .fa-envelope:hover{
-    background-color: #8458B3;
-}
-
 **/
+
+i{
+    font-size: 20em;
+    color: #684695;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 20em;
+    margin-right: 5px;
+}
+
+a:hover i{
+    background-color: #684695;
+    border: 10px solid #684695;
+    color: white;
+}
+
+a:hover .estilotexto{
+    color: #684695;
+}
+
+
+
+
+
+
+/**
+
+.list-contact .fa-github-alt{
+    font-size: 25em;
+    background-color: #FFFFFF;
+    border: 10px solid  #FFFFFF;
+    border-radius: 20em;
+       
+}
+
+.list-contact .fa-linkedin-in{
+    font-size: 25em;
+    background-color: #FFFFFF;
+    border: 10px solid  #FFFFFF;
+    border-radius: 20em;
+}
+
+.list-contact .fa-envelope{
+    font-size: 25em;
+    background-color: #FFFFFF;
+    border: 10px solid  #FFFFFF;
+    border-radius: 20em;
+}
+**/
+
+
+
+
+
 
 
 .formulario{
@@ -542,16 +555,11 @@ main{
     flex-direction: column; 
     justify-content: space-around;
     align-content: flex-start; 
+    background-color: blue;
       
        
 }
 
-.escribime{
-    font-family: 'Cookie', cursive;
-    font-family: 'Lobster', cursive;
-    font-size: 60em;
-    
-}
 
 
 
@@ -560,7 +568,8 @@ main{
 
 
 
-/** SECCIÓN DEL FOOTER **/
+
+/** SECCIÓN DEL FOOTER
 
 footer{
  height: 32%;
@@ -573,7 +582,7 @@ footer{
  
 }
 
-/** links nav-footer **/
+/** links nav-footer *
 
 
 
@@ -593,7 +602,7 @@ footer{
     font-size: 15em;
 }
 
-/** botones footer **/
+/** botones footer **
 
 
 
@@ -647,7 +656,7 @@ border: 1em solid white;
 
 
 
-    /** frase final **/
+    /** frase final *
 
 
 .frasefinal{
@@ -660,7 +669,7 @@ border: 1em solid white;
 
 }
 
-/** hovers del footer **/
+/** hovers del footer **
 
 
 
@@ -686,7 +695,7 @@ border: 1em solid white;
 }
 
 
-/** queries del footer **/ 
+/** queries del footer **
 
 @media screen and (max-width: 1024px) {
 
