@@ -451,7 +451,7 @@ main{
 
 .contact-me{
     width: 40%;
-    height: 80%; 
+    height: 90%; 
     display: flex; 
     flex-direction: column;  
     align-self: center;
@@ -501,19 +501,73 @@ a:hover .estilotexto{
 
 .formulario{
     width: 40%;
-    height: 80%; 
+    height: 90%; 
     display: flex; 
     flex-direction: column;  
     align-self: center;
     background-color: white; 
+    text-align: left;
            
 }
 
 .formulario .estilotitulo{
     text-align: left;
+   
 }
 
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+label .estilotexto{
+    font-size: 19em;
+    font-weight: bolder;
+}
 
+.name-lastname{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+input::placeholder{
+    font-size: 15px;    
+    background-color: #F6F7FB;
+    
+    
+    
+}
+
+textarea{
+    width: 30em;
+    height: 10em;
+    font-size: 15px;    
+    background-color: #F6F7FB;
+    border: 1px solid #F6F7FB;
+    border-radius: 10px;
+}
+
+label button{
+    height: 3em;
+    width: 9em;
+    background-color: #684695;
+    color: white;
+    font-size: 17em;
+    border-radius: 20em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+label:hover button{
+    background-color: #2C2D30;
+}
 
 
 
