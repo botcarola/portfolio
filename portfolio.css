@@ -985,7 +985,7 @@ body{
 
 .contenedor4 {
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     background-color: #E5EAF5;
@@ -1011,27 +1011,109 @@ body{
     background-color: #E5EAF5;
 }
 
+.contact-me .estilotitulo{
+    font-size: 60px;
+
+}
+
+.contact-me .estilotexto{
+    font-size: 18px;
+}
 
 
 
+.list-contact{
+    width: 100%;
+    background-color: #E5EAF5;
+    font-weight: 900;
+}
+
+.list-contact i{
+    font-size: 30px;
+}
+
+.formulario{
+    background-color: #E5EAF5;
+    width: 90%; 
+    height: 100%;  
+
+}
+
+form{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-content: space-around;
+}
+
+.name-lastname{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.formulario .estilotitulo{
+    font-size: 60px;
+}
+
+.name-lastname .estilotexto{
+    font-size: 18px;
+}
+
+input{
+    font-size: 18px;
+}
+
+.email .estilotexto{
+    font-size: 18px;
+
+}
 
 
+.email input{
+    font-size: 18px;
+    display: flex;
+}
 
+.textarea-button{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    margin-top: 25px;
+    
+}
 
+.textarea-button .estilotexto{
+    display: flex;
+    font-size: 18px;
+}
 
+textarea{
+    width: 315px;
+    height: 200px;
+}
 
-
-
-
-
-
-
-
+.textarea-button button{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
 
 /** FOOTER **/
 
 .listafooter{
     display: none;
+}
+
+.circulo i{
+    font-size: 25px;
+}
+
+.frasefinal{
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
