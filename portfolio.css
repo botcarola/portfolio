@@ -321,6 +321,7 @@ main{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
 }
 
 .card .estilotexto{
@@ -652,23 +653,19 @@ label:hover button{
 
 
 a:focus{
-    border: 1px solid #684695;
+    border: 1px solid black;
     border-radius: 15px;
-    box-shadow: inset 0 0 3px 1px #684695;
+    box-shadow: inset 0 0 3px 1px white;
     outline: none;
     
 }
 
 button:focus{
-    border: 1px solid black;
-    box-shadow: inset 0 0 3px 1px black;
+    border: 1px solid gray;
+    box-shadow: inset 0 0 3px 1px white;
     outline: none;
     
 }
-
-
-
-
 
 
 
@@ -920,6 +917,10 @@ body{
 .projectscard .card{
     width: 90%;
     height: 300px;
+}
+
+.card img{
+    font-size: 1px;
 }
 
 
@@ -1725,5 +1726,111 @@ textarea{
         
         } 
 
+
+
         
+
+        
+
+        
+        @media screen and (max-width: 1850px){
+
+            .skillscards{
+                width: 48%;
+            }
+
+            .projectscard{
+                width: 60%;
+            }
+
+        }
+
+        @media screen and (max-width: 1700px){
+
+            .skillscards{
+                width: 55%;
+            }
+
+            .projectscard{
+                width: 70%;
+            }
+
+
+        }
+
+        @media screen and (max-width: 1630px){
+
+            .skillscards{
+                width: 60%;
+            }
+
+            .projectscard{
+                width: 70%;
+            }
+
+            
+        }
+
+        @media screen and (max-width: 1530px){
+
+            .projectscard{
+                width: 75%;
+            }
+
+
+        }
+
+        @media screen and (max-width: 1440px){
+
+            .projectscard{
+                width: 79%;
+            }
+
+
+        }
+
+        @media screen and (max-width: 1350px){
+
+            .skillscards{
+                width: 70%;
+            }
+
+            .projectscard{
+                width: 85%;
+            }
+
+
+        }
+
+        @media screen and (max-width: 1270px){
+
+            .projectscard{
+                width: 90%;
+            }
+
+
+        }
+        
+
+        @media screen and (max-width: 1190px){
+
+            .projectscard{
+                width: 95%;
+            }
+
+
+        }
+
+        @media screen and (max-width: 1160px){
+
+            .skillscards{
+                width: 80%;
+            }
+
+            .projectscard{
+                width: 98%;
+            }
+
+        }
+
         
