@@ -12,6 +12,8 @@ Para poder abordar el desarrollo de la página web, tuve que utilizar: ***HTML**
 * Diseño ***Responsive***
 * Criterios básicos de ***Accesibilidad***
 
+Portfolio: https://botcarola.github.io/portfolio/
+
 Esta página seguirá actualizándose en la posteridad, al vincularla con nuevos proyectos que iré creando cuando sume nuevos conocimientos.
 
 Agradezco a **ADA**, a mi docente, ayudante de cátedra y a aquellas compañeras que me apoyan en este aprendizaje :purple_heart:
