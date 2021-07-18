@@ -3,6 +3,7 @@
 
 
 html, body{
+    /* no es necesario aclarar height 100% */
     height: 100%;
     padding: 0;
     margin: 0;
@@ -13,7 +14,8 @@ html, body{
 /** SECCIÓN BODY **/
 
 body{
-   
+   /* por que? el font size por defecto es 12px, que es mucho mejor que esto. 
+   Si te olvidaras de darle font size a un texto de tu pagina, se veria a 1px! */
     font-size: 1px;
 
 }
@@ -31,6 +33,7 @@ a{
 
 .contenedorheader{
     width: 100%;
+    /* no le des height a los contenedores */
     height: 1000em;
     display: flex;
     justify-content: center;
@@ -40,9 +43,13 @@ a{
 
 }
 
+/* fijate que los estilos de contenedor y contenedor2 son iguales salvo por el color
+podrias tener una clase general "contenedor" para todos los estilos, y otra clase
+para los colores, asi no repetis tanto */
 
 .contenedor2{
     width: 100%;
+    /* no le des height a los contenedores */
     height: 1000em;
     display: flex;
     flex-direction: column;
@@ -54,6 +61,7 @@ a{
 
 .contenedor3{
     width: 100%;
+    /* no le des height a los contenedores */
     height: 1500em;
     display: flex;
     flex-direction: column;
@@ -66,6 +74,8 @@ a{
 
 .contenedor4{
     width: 100%;
+    /* no le des height a los contenedores. por otro lado contenedor2 y 4 son iguales, 
+    deberian tener la misma clase */
     height: 1000em;
     display: flex;
     flex-direction: column;
@@ -122,6 +132,11 @@ nav{
     justify-content: center;
     align-items: center;
     margin-right: 10em;
+
+    /* acomodamos las cosas con flex, no dandoles un margin enorme. Esto va a romperte el responsive
+    y obligarte a hacer malabares en las media queries. 
+    Los margenes estan para que cosas como tus tarjetas tengan un espaciado entre ellas. 
+    Si querés que algo se vea corrido hacia la  derecha, la solucion es decir "justify-content: flex-end". */
     margin-left: 500em;
 
 
@@ -170,6 +185,7 @@ nav{
 
 
 header{
+    /* innecesario el width de 100 */
     width: 100%;
     display: flex;    
     justify-content: center;
@@ -183,16 +199,22 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    /* innecesario, es el estilo por defecto */
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+
+    /* usa flex para acomodar las cosas, este tipo de soluciones arruinan el responsive */
     padding-left: 80em;  
 }
 
 .hola{
+    /* aqui hay dos ordenes contradictorias para la tipografia */
     font-family: 'Cookie', cursive;
     font-family: 'Lobster', cursive;
     font-size: 30em;
     font-weight: bolder;
+
+    /* innecesario el padding 0, los p no tienen padding */
     padding-bottom: 0;
     margin-bottom: 0;
     color: #2C2D30;
@@ -200,6 +222,7 @@ header{
 }
 
 .nombre{
+    /* mismas observaciones que para "hola" */
     font-family: 'Cookie', cursive;
     font-family: 'Lobster', cursive;
     font-size: 75em;
@@ -252,6 +275,7 @@ header{
 /** SECCIÓN MAIN**/
 
 main{
+    /* innecesario el width */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -282,6 +306,7 @@ main{
 
 .estilotitulo{
     text-align: center;
+    /* no entiendo por que se repiten estas dos tipografias. un texto solo puede tener una */
     font-family: 'Cookie', cursive;
     font-family: 'Lobster', cursive;
     font-size: 60em;
@@ -301,6 +326,7 @@ main{
 .skillscards{
 
     width: 45%;
+    /* no des height a los contenedores */
     height: 52%;
     display: flex;
     justify-content: space-evenly;
@@ -378,6 +404,7 @@ main{
 /** ¡¡¡¡ SECCIÓN CITA !!!! **/
 
 .citatextual{
+    /* width innecesario, no le des height a los contenedores */
     width: 100%;
     height: 600em;
     background-color: #684695;
@@ -391,6 +418,7 @@ main{
 }
 
 .citacaja{
+    /* innecesario */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -429,7 +457,7 @@ main{
 /** ¡¡¡¡ MIS PROYECTOS !!!! **/
 
 .projectscard{
-
+/* no le des height a los contenedores */
     width: 58%;
     height: 75%;
     display: flex;
@@ -462,6 +490,7 @@ main{
 /** ¡¡¡¡¡ CONTACTO !!!!!! **/
 
 .contact-box{
+    /* ojo con el height */
     height: 70%;
     width: 60%;
     background-color: white;
@@ -474,9 +503,13 @@ main{
 
 .contact-me{
     width: 40%;
+    /* ojo con el height */
     height: 90%; 
     display: flex; 
     flex-direction: column;  
+    
+    /* align self deberia usarse pocas veces
+    si lo necesitas, es probable que haya faltado una orden en el contenedor de este elemento*/
     align-self: center;
     background-color: white; 
     margin: 20em;
@@ -484,16 +517,19 @@ main{
 }
 
 .contact-me .estilotitulo{
+    /* innecesario */
     text-align: left;
     margin: 0;
 }
 
 .contact-me .estilotexto{
+    /* innecesario y repetido*/
     text-align: left;
     font-weight: 300;
 }
 
 .list-contact{
+    /* innecesario */
     width: 100%;
     height: 40%;
     background-color: white;
@@ -555,6 +591,7 @@ a:hover .estilotexto{
 }
 
 form{
+    /* innecesario */
     height: 100%;
     width: 100%;
     display: flex;
@@ -590,6 +627,7 @@ input{
 }
 
 .focus-input::placeholder{
+    /* esto no parece tener uso */
     display: flex;
 
 }
@@ -673,6 +711,7 @@ button:focus{
 /** SECCIÓN DEL FOOTER **/
 
 footer{
+    /* innecesario el width, peligroso el height */
  height: 32%;
  width: 100%;
  background-color: #494D5F;
@@ -711,6 +750,7 @@ footer{
     padding-bottom: 15em;
     display: flex;
     width: 13%;
+    /* innecesario, row es el estilo por defecto */
     flex-direction: row;
     justify-content: space-evenly;
 
@@ -734,7 +774,7 @@ footer{
 
 }
 
-
+/* ojo con estas media queries, las medidas estan mal */
 @media screen and (max-width: 360px) and (min-height: 640px){
 
   
@@ -1731,7 +1771,8 @@ textarea{
         
 
         
-
+/* no deberia ser necesario tener tantas media queries. Tus tarjetas deberian tener un tamaño
+que se vea bien en la mayoria de las resoluciones: esto de aca es muy dificil de mantener  */
         
         @media screen and (max-width: 1850px){
 
